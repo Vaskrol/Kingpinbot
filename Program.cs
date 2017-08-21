@@ -19,7 +19,7 @@
 		{
 			Console.WriteLine("Kingpin bot starting...");
 
-			var key = "387874334:AAFEmdPB_KCYVcAzAbP6Ywq6gY01-Vd2-dA";
+			var key = "...";
 
 			var sounds = new Dictionary<string, string>();
 			
