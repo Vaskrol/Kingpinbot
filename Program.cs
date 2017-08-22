@@ -1,12 +1,12 @@
 ﻿namespace Kingpinbot
 {
+	using NetTelegramBotApi.Types;
 	using System;
 	using System.Collections.Generic;
 	using System.ComponentModel;
-
-	using NetTelegramBotApi.Types;
-
 	using Telegram.Bot;
+	using Telegram.Bot.Args;
+	using Telegram.Bot.Types.InlineQueryResults;
 	using Telegram.Bot.Args;
 	using Telegram.Bot.Types.InlineQueryResults;
 
