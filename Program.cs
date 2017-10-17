@@ -19,7 +19,8 @@
 		{
 			Console.WriteLine("Kingpin bot starting...");
 
-			var key = "387874334:AAGAnHz44uNXf5rfnSdwkcHoCVbqasmJ2Lo";
+			// Key recieved from BotFather
+			var key = "000000000:AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIII";
 
 			var sounds = new Dictionary<string, string>();
 			
@@ -58,7 +59,7 @@
 			BackgroundWorker bw = new BackgroundWorker();
 			bw.DoWork += ProcessBot;
 
-			if (bw.IsBusy == false)
+			if (!bw.IsBusy)
 			{
 				bw.RunWorkerAsync(key);
 			}
